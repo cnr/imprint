@@ -98,6 +98,8 @@
         // this gets it to the default installation orientation,,,
         <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,
 
+        <&zip_xy_scaler 1 3>,
+
         // activate layer 4 within 500ms of the trackball moving
         <&zip_temp_layer 4 500>;
 };
