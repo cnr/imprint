@@ -80,10 +80,7 @@
 
 //right hand trackball configuration
 
-&trackball_peripheral_listener {
-    input-processors =
-        <&zip_xy_scaler 1 3>;
-};
+&trackball_peripheral_listener {};
 
 //left hand trackball configuration
 
