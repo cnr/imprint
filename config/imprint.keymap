@@ -52,14 +52,14 @@
 
         Keyboard_Control_Layer {
             bindings = <
-&trans  &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &trans  &trans
-&trans  &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &trans  &trans
-&trans  &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &trans  &trans
-&trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans            &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &trans  &trans
-&trans  &trans  &trans      &trans             &trans                                           &trans        &trans        &trans     &sl 1   &sl 0
-                                               &trans           &trans  &trans    &bt BT_CLR    &trans        &trans
-                                               &bootloader      &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&trans       &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &trans       &trans
+&bootloader  &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &bootloader  &trans
+&trans       &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &trans       &trans
+&trans       &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans            &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT  &trans       &trans
+&trans       &trans  &trans      &trans             &trans           &trans            &trans        &trans        &trans        &trans     &sl 1        &sl 0
+&trans       &trans  &trans      &trans             &trans                                           &trans        &trans        &trans     &trans       &trans
+                                                    &trans           &trans  &trans    &bt BT_CLR    &trans        &trans
+                                                    &bootloader      &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
             >;
         };
 
